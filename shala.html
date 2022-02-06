@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCNC Education</title>
+
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .page-title {
+            text-align: center;
+            font-size: 4rem;
+            margin-bottom: 0;
+        }
+        
+        .navbar {
+            /* border-top: 2px solid black;
+            border-bottom: 2px solid black; */
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            margin: 0;
+        }
+        
+        .navbar-child {
+            /* border-left: 1px solid black;
+            border-right: 1px solid black; */
+            width: calc(100% / 6);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+        }
+        
+        .navbar-child:not(:last-child) {
+            border-right: 1px solid black;
+        }
+        
+        #new-updates {
+            margin: 5vh auto 5vh auto;
+            width: 80vw;
+            height: auto;
+            /* background-color: blanchedalmond; */
+            /* border-radius: 8px;
+            border: 2px solid black; */
+            padding: 0 5vh 0 5vh;
+            border-bottom: 2px solid black;
+        }
+        
+        #mission-objective {
+            margin: 5vh auto 5vh auto;
+            width: 80vw;
+            height: auto;
+            /* background-color: blanchedalmond; */
+            /* border-radius: 8px;
+            border: 2px solid black; */
+            padding: 0 5vh 0 5vh;
+            border-bottom: 2px solid black;
+        }
+        
+        #our-team {
+            margin: 5vh auto 5vh auto;
+            width: 80vw;
+            height: auto;
+            /* background-color: blanchedalmond; */
+            /* border-radius: 8px;
+            border: 2px solid black; */
+            padding: 0 5vh 0 5vh;
+            border-bottom: 2px solid black;
+        }
+        
+        #registration {
+            margin: 5vh auto 5vh auto;
+            width: 80vw;
+            height: auto;
+            /* background-color: blanchedalmond; */
+            /* border-radius: 8px;
+            border: 2px solid black; */
+            padding: 0 5vh 0 5vh;
+            border-bottom: 2px solid black;
+        }
+        
+        #schedule {
+            margin: 5vh auto 5vh auto;
+            width: 80vw;
+            height: auto;
+            /* background-color: blanchedalmond; */
+            /* border-radius: 8px;
+            border: 2px solid black; */
+            padding: 0 5vh 0 5vh;
+            border-bottom: 2px solid black;
+        }
+        
+        #volunteer-donation {
+            margin: 5vh auto 5vh auto;
+            width: 80vw;
+            height: auto;
+            /* background-color: blanchedalmond; */
+            /* border-radius: 8px;
+            border: 2px solid black; */
+            padding: 0 5vh 0 5vh;
+            border-bottom: 2px solid black;
+        }
+        
+        a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .table {
+            width: 90%;
+            margin: 0 auto 0 auto;
+            height: auto;
+            display: block;
+        }
+        
+        .row {
+            display: flex;
+            width: 100%;
+            border-bottom: 0.4px dotted black;
+        }
+        
+        .image {
+            width: 30%;
+        }
+        
+        .info {
+            width: 70%;
+            padding-left: 5vw;
+        }
+        
+        th,
+        td {
+            border: 1px solid gray;
+        }
+        
+        table {
+            margin-bottom: 5vh;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-child">New Updates</div>
+        <div class="navbar-child"><a href="#mission-objective" style="color: black;">Mission Statement</a></div>
+
+
+        <div class="navbar-child">
+            <a href="#registration" style="color: black;">Registration</a>
+        </div>
+        <div class="navbar-child">
+            <a href="#schedule" style="color: black;">Schedule</a>
+        </div>
+        <div class="navbar-child">
+            <a href="#volunteer-donation" style="color: black;"> Donate & Volunteer</a>
+        </div>
+        <div class="navbar-child"><a href="#our-team" style="color: black;">Our Team</a></div>
+
+
+    </div>
+    <h1 class="page-title">JCNC Education</h1>
+    <marquee style="margin-left: 15%; margin-right: 15%; width: 70%; margin-top: 2vh; text-align: center; color: cornflowerblue; font-size: 1.4rem;"><a>Registration for 2022 is OPEN NOW!</a></marquee>
+
+
+    <div id="new-updates">
+        <h2 style="text-align: center; font-size: 2rem;">New Updates</h2>
+        <p style="font: 1.2rem;">
+            <span style="color: red;">YEAR 2021 - 2022:</span> We are working on revising our Shala calendar of classes and will shortly share this information. We are working on aligning the Shala schedule to follow the annual calendar to provide the
+            best experience for kids & parents. The success of this schedule is will require complete cooperation from parents and students. </p>
+        <ul>
+            <li>Sutra Shala - 9:30 AM to 10 AM every Sunday</li>
+            <li>Jain Shala - 10 AM to 11:20 AM every Sunday</li>
+            <li>Music Shala - <b>online
+                </b>10 AM to 11 AM on First, Third, and Fifth Sunday</li>
+            <li>Hindi Shala - <b>online</b> 12 PM to 1:15 PM every Sunday</li>
+            <li>Gujurati Shala - 12 PM to 1:15 PM every Sunday</li>
+            <li>SAT Class - 12 PM to 1:15 PM every Sunday</li>
+        </ul>
+    </div>
+    <div id="mission-objective">
+        <h2 style="text-align: center; font-size: 2rem;">Our Mission</h2>
+        <p style="font-size: 1.2rem;">Our mission is to instill spiritual development, self-awareness, moral consciousness, social well-being, and Jain identity in individuals, based on the principles of Jainism.</p>
+        <p style="font-size: 1.1rem;">Our Objective:</p>
+        <ul>
+            <li>Bring happiness to our life through the proud heritage of Jainism</li>
+            <li>Enhance our physical, mental, emotional and spiritual health while maintaining fundamental values of Jainism</li>
+            <li>Adhere to the highest standards of ethics and integrity</li>
+            <li>Create positive environment around teachers, participants, family members and friends</li>
+            <li>Utilize latest scientific information where applicable</li>
+        </ul>
+    </div>
+    <div id="registration">
+        <h4 style="text-align: center;font-size: 2rem;">Shala Registration</h4>
+        <p style="font-size: 1.2rem;">Our registration is handled by 123Signup. Below, you will find registraton links for each Shala. If you do not know how to use 123Signup, please
+            <a href="https://docs.google.com/document/d/1VEBnhWepBSY1dtZJnCSy4-ziQAS7ECszLo4XbR2rZNA/edit" target="_blank">visit this link.</a>
+        </p>
+        <ol>
+            <li>Jain Shala:
+                <a href="https://www.123signup.com/register?id=kjmjf" target="_blank">https://www.123signup.com/register?id=kjmjf</a>
+            </li>
+            <li>Sutra Shala:
+                <a href="https://www.123signup.com/register?id=kjmtr" target="_blank">https://www.123signup.com/register?id=kjmtr</a>
+            </li>
+            <li>Hindi Shala:
+                <a href="https://www.123signup.com/register?id=kjmjd" target="_blank">https://www.123signup.com/register?id=kjmjd</a>
+            </li>
+            <li>Gujurati Shala:
+                <a href="https://www.123signup.com/register?id=kjmmt" target="_blank">https://www.123signup.com/register?id=kjmmt</a>
+            </li>
+            <li>Sutra Shala:
+                <a href="https://www.123signup.com/register?id=kjmcd" target="_blank">https://www.123signup.com/register?id=kjmcd</a>
+            </li>
+            <li>SAT Grades 7-8:
+                <a href="https://www.123signup.com/register?id=kjmtj" target="_blank">https://www.123signup.com/register?id=kjmtj</a>
+            </li>
+            <li>SAT Grades 9-12:
+                <a href="https://www.123signup.com/register?id=kjmzc" target="_blank">https://www.123signup.com/register?id=kjmzc</a>
+            </li>
+        </ol>
+        <br>
+        <p style="font-size: 1.2rem;">Here is some additional info on the classes:</p>
+        <ul>
+            <li>All classes must be registered for separately.</li>
+            <li>All signups must be done online. Paper forms are not accepted.</li>
+        </ul>
+        <br>
+        <p style="font-size: 1.2rem;">We will also enforce the following minimum age rules to ensure the health and safety of all children:</p>
+        <ul>
+            <li>Jain Shala Toddler: must be 3 years and potty trained by 9/1/2021</li>
+            <li>Jain Shala Pre-K: must be 4 years by 9/1/2021</li>
+            <li>Jain Shala KG: must be 5 years by 10/1/2021</li>
+            <li>Hindi Pre-L1: must be 4 years by 9/1/2021</li>
+            <li>Gujarati KG: must be 5 years by 10/1/2021</li>
+            <li>Music Class: Must be 3 years and up with Potty Trained by Sept 1st 2021</li>
+
+        </ul>
+        <br>
+        <p style="font-size: 1.2rem;">Shala Fees:</p>
+        <div style="display: flex; width: 75%;">
+            <div style="width: 50%; margin: auto;">
+                <p style="text-align: center; font-size: 1.2rem;">Early Bird</p>
+                <table style="display: flex; justify-content: center; align-items: middle;">
+                    <tr>
+                        <th></th>
+                        <th>Members</th>
+                        <th>Non-members</th>
+                    </tr>
+                    <tr>
+                        <td>Jain Shala</td>
+                        <td>80</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Kids Sutra</td>
+                        <td>20</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Jain Music</td>
+                        <td>150</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>Hindi Shala</td>
+                        <td>120</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>Gujurati Shala</td>
+                        <td>95</td>
+                        <td>125</td>
+                    </tr>
+                    <tr>
+                        <td>SAT 7-8</td>
+                        <td>160</td>
+                        <td>185</td>
+                    </tr>
+                    <tr>
+                        <td>SAT 9-12</td>
+                        <td>160</td>
+                        <td>185</td>
+                    </tr>
+
+                </table>
+            </div>
+            <div style="width: 50%; margin: auto;">
+                <p style="text-align: center; font-size: 1.2rem;">Regular Registration</p>
+
+                <table style="display: flex; justify-content: center; align-items: middle;">
+                    <tr>
+                        <th></th>
+                        <th>Members</th>
+                        <th>Non-members</th>
+                    </tr>
+                    <tr>
+                        <td>Jain Shala</td>
+                        <td>90</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>Kids Sutra</td>
+                        <td>30</td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <td>Jain Music</td>
+                        <td>180</td>
+                        <td>225</td>
+                    </tr>
+                    <tr>
+                        <td>Hindi Shala</td>
+                        <td>150</td>
+                        <td>175</td>
+                    </tr>
+                    <tr>
+                        <td>Gujurati Shala</td>
+                        <td>115</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>SAT 7-8</td>
+                        <td>170</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>SAT 9-12</td>
+                        <td>170</td>
+                        <td>200</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <p style="font-size: 1.2rem;">Shala Syllabus:</p>
+        <ul>
+            <li>
+                <a href="https://drive.google.com/file/d/1xwYmneaJueJNwfkeex2IUj5ZuELStS1q/view?usp=sharing" target="_blank">Jain Shala Syllabus</a>
+            </li>
+            <li>
+                <a href="https://drive.google.com/file/d/1x06uokiZCnO1YKXQGcdZDBlNa5RPDTXU/view?usp=sharing" target="_blank">Gujurati Shala Syllabus</a>
+            </li>
+            <li>
+                <a href="https://drive.google.com/file/d/1QGwnaCdmR2KD91arDG1TGVOAkJuUb66b/view?usp=sharing" target="_blank">Hindi Shala Syllabus</a>
+            </li>
+            <li>
+                <a href="http://www.jcnc.org/Jcnc-shala/shala-books" target="_blank">Shala Books</a> </li>
+        </ul>
+    </div>
+    <div id="schedule">
+        <h4 style="text-align: center;font-size: 2rem;">Shala Calendar</h4>
+        <iframe width="100%" height="500vh" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVe2OSZ4cOO4kqJbCnaWZONI1Y6t02Sk3QLZ4Qr5A5S0JXGFWfA8GJR5Yh68NlAFFOAiRGgw95bwR6/pubhtml?gid=885501857&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        <h4 style="text-align: center;font-size: 2rem;">Class Assignment</h4>
+
+        <div style="width: 100%; margin: auto;">
+            <table style="display: flex; justify-content: center; align-items: center;">
+                <tr>
+                    <th>Classroom</th>
+                    <th>Morning Classes</th>
+                    <th>Afternoon Classes</th>
+                </tr>
+                <tr>
+                    <td>Classroom A</td>
+                    <td>Jain Jr. Grade 1-A</td>
+                    <td>Hindi L1</td>
+                </tr>
+                <tr>
+                    <td>Classroom B</td>
+                    <td>Jain Sr. Grade 4-A</td>
+                    <td>Hindi L3</td>
+                </tr>
+                <tr>
+                    <td>Meditation A (Upper)</td>
+                    <td>Jain Sr. Grade 3</td>
+                    <td>Hindi L4</td>
+                </tr>
+                <tr>
+                    <td>Meditation B (Upper)</td>
+                    <td>Jain Sr. Grade 5</td>
+                    <td>Hindi L2</td>
+                </tr>
+                <tr>
+                    <td>CEC (w/ Restroom)</td>
+                    <td>Jain Jr. Toddler</td>
+                    <td>Hindi Pre-L1</td>
+                </tr>
+                <tr>
+                    <td>Museum</td>
+                    <td>Jain Jr. Pre-K</td>
+                    <td>Gujurati KG</td>
+                </tr>
+                <tr>
+                    <td>Auditorium Corner Left / Back</td>
+                    <td>Jain Jr. KG</td>
+                    <td>Hindi L5</td>
+                </tr>
+                <tr>
+                    <td>Auditorium Corner Right / Back</td>
+                    <td>Jain Jr. Grade 2-A</td>
+                    <td>Hindi L6 & L7</td>
+                </tr>
+                <tr>
+                    <td>Auditorium Corner Left / Front </td>
+                    <td>Jain Sr. Grade 8</td>
+                    <td>Gujurati L2</td>
+                </tr>
+                <tr>
+                    <td>Auditorium Corner Right / Front</td>
+                    <td>Jain Sr. Grade 7</td>
+                    <td>Gujurati L4</td>
+                </tr>
+                <tr>
+                    <td>Conference (Front of Library)</td>
+                    <td>Jain Sr. Grade 6</td>
+                    <td>Gujurati L3</td>
+                </tr>
+                <tr>
+                    <td>Elevator Room (Upper)</td>
+                    <td>Jain Sr. High School</td>
+                    <td>SAT Math / Eng.</td>
+                </tr>
+                <tr>
+                    <td>Books Room (Upper)</td>
+                    <td></td>
+                    <td>Gujurati L5</td>
+                </tr>
+                <tr>
+                    <td>Stage</td>
+                    <td></td>
+                    <td>Gujurati L1</td>
+                </tr>
+            </table>
+
+        </div>
+
+        <img src="https://docs.google.com/drawings/d/e/2PACX-1vTZn9RYkP5zHGwqwH4kbef1LYyKwYh5J_OMhLLr3Br7_qB-eyq9evm9nW8mz_-wAqu3KPqEJKBNNNlH/pub?w=1440&amp;h=1080" width=80% height="" style="margin: auto; display: flex; justify-content: center; align-items: center;">
+
+
+        <img src="https://docs.google.com/drawings/d/e/2PACX-1vTLDRhvg0k7ZORw_y8VEPpGJs0pmPfHzJ5gPk92TYpMsZKwjVkSBNHCuQOSqZew2QzeZuiClSi1fhOw/pub?w=1440&amp;h=1080" width="100%" style="display: flex; justify-content: center; align-items: center;">
+    </div>
+    <div id="volunteer-donation">
+        <h4 style="text-align: center;font-size: 2rem;">Shala Volunteering & Donations</h4>
+        <p>JCNC runs on donations and volunteering from our members. In order to provide all the shala members as successful an experience as possible, we humbly ask all of you to donate and volunteer in whichever capacity possible. Below, you can find additional
+            information.
+        </p>
+        <ul>
+            <li>
+                <u>Volunteer for Classes</u>: The education Department is looking for volunteers in areas of Teachers, Coordinators, Kitchen Leads. Specifically, we have openings for Music and Dance Teachers, Choreographers. If you are interested in teaching/volunteering
+                please
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4NiVb-Bbq7okUekxQNFLiL4GMeZGh4ezUwqe7FeKeQfWbOA/viewform" target="_blank">fill this form.</a> Please
+
+                <a href="http://www.jcnc.org/Jcnc-shala/pathshaala-volunteer-jobs" target="_blank">visit this link</a> to learn more about the positions available.</a> to learn more about the positions available. Please <a href=mailto:education@jcnc.org>email education@jcnc.org</a>                if you have any more questions.
+            </li>
+            <li><u>Donations</u>: Please support the Education Department with your Financial Tax Deductible donations. You can Donate at Link below and select education from the drop-down menu. Or drop off a Check in the JCNC Finance Mail Box. Please select
+                Education while donating at the link below or Checks should be made out to JCNC and mention Education in the memo field of the check. Please
+                <a href="http://www.jcnc.org/donate" target="_blank">visit http://www.jcnc.org/donate</a> to donate. Please
+                <a href=mailto:education@jcnc.org>email education@jcnc.org</a> if you have any more questions.
+            </li>
+            <li><u>Membership</u>: JCNC Membership is based on Calendar year. You can signup or renew you membership online at
+                <a href="http://www.jcnc.org/" target="_blank">http://www.jcnc.org/</a>. Please
+                <a href=mailto:pr@jcnc.org>email pr@jcnc.org</a> if you have any questions.
+            </li>
+            <li><u>Our library</u>: JCNC Library has a wide selection of books in English, Hindi and Gujarati. The library collection spans from Agams to children's books and everything in between. The audio visual collection of the library contains bhajans,
+                various videos, and recorded discourses. JCNC Library is located on the ground floor of the Jain Center. The library is open concurrent to the Jain Shala, Sundays from 10:00 AM - Noon. JCNC Members can check-out books and audio visual
+                content from the library except the reference books such as Agams. If you would like to volunteer for the library or make a contribution or donate Jain Studies books, please
+                <a href=mailto:library@jcnc.org>email library@jcnc.org</a>.
+            </li>
+        </ul>
+
+    </div>
+    <div id="our-team">
+        <h2 style="text-align: center;font-size: 2rem;">Our Team</h2>
+        <div class="table">
+            <div class="row">
+                <div class="image"><img src="https://lh6.googleusercontent.com/paftM3duQJYwpuzOHefBhJfh1rjL0DPnPHGDLV5Tbnvj3F5Ad438RbelH2UHRex7ewpMgTk3TVg7rlgh0ZrkKBOI46oe6NC4unIrtKEHlY3G_kxek-QfNc5pNUpfAXoWGQGecYvi=s0" style="height: 30vh; width:
+                100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Nayan Jain</h1>
+                    <p style="font-size: 1.4rem;">VP Education</p>
+                    <p style="font-size: 1.2rem;">education@jcnc.org</p>
+                    <p style="font-size: 1.2rem;">732-801-3923</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image"><img src="http://www.jcnc.org/_/rsrc/1641616430451/education/WhatsApp%20Image%202022-01-06%20at%2011.01.20%20PM.jpeg" style="height: 30vh; width: 100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Dhyanesh Bagadia</h1>
+                    <p style="font-size: 1.4rem;">Co-VP Education</p>
+                    <p style="font-size: 1.2rem;">education@jcnc.org</p>
+                    <p style="font-size: 1.2rem;">703-229-9467</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image"><img src="https://lh4.googleusercontent.com/h1HRuJvPcxn4yEbeKM4SANq7tXmvQjHMMI_gPTubKn15cGNZYC8aebEY2bphbg0J57Q1X8mJh9_cXpxXmJ-cVHNQiJ9BFzZ9kGVY5x4y289fDJ9C1lyCrydShkxbcNrb1YHvULaY=s0" style="height: 30vh; width:
+                100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Anamika Kothari</h1>
+                    <p style="font-size: 1.4rem;">Jain Sutra Shala</p>
+                    <p style="font-size: 1.2rem;">kotharimail@yahoo.com</p>
+                    <p style="font-size: 1.2rem;">510-932-1105</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image"><img src="https://lh5.googleusercontent.com/lKUWKUTcWylXjQBjBtl-3HkQZogXhq1ht5J5rHc5h8ig2jO4zul4R4rsSwTOmfXxTMPwTa0vMhOb1Bl6QhG4JpynwmI9BtD5JSILWbjQuw14UW2_eEbuiTKIRtovPN-_nE-3Zi1h=s0" style="height: 30vh; width:
+                100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Kavita Parekh</h1>
+                    <p style="font-size: 1.4rem;">Sr. Jain Shala</p>
+                    <p style="font-size: 1.2rem;">pparekh76@gmail.com</p>
+                    <p style="font-size: 1.2rem;">510-284-7220</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image"><img src="https://lh4.googleusercontent.com/pMMirlG_OLGfY3ZuOQNm9gfpQuq0dOof1Gjxw9xABP6F6XHNM457J4ygY5yyckU4ndXH7R-D4eTMlL96UDXJSapIW6OrQJ95yaYBXFH6dANWPsFM8ciT9cer0QsJ4DulA1GOJpJr=s0" style="height: 30vh; width:
+                100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Rinku Ranka</h1>
+                    <p style="font-size: 1.4rem;">Sr. Jain Shala</p>
+                    <p style="font-size: 1.2rem;">rinku.ranka@gmail.com</p>
+                    <p style="font-size: 1.2rem;">408-431-6213</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image"><img src="https://lh5.googleusercontent.com/pe99Cd2apLD5vT8_I8VM9WdziqrWBNtrvnhPNADzHeh95UdZmLBbjrHE999DTEYS-wW0KfEfXrM1Tv1jhPm7Ev38csQ7HtfGARAxDIVJBnGbzWssw-ZL_eJ4h0xGaAnY0FXk8PIs=s0" style="height: 30vh; width:
+                100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Reemu Mehta</h1>
+                    <p style="font-size: 1.4rem;">Jr. Jain Shala</p>
+                    <p style="font-size: 1.2rem;">reemumehta@gmail.com</p>
+                    <p style="font-size: 1.2rem;">650-796-4285</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image"><img src="http://www.jcnc.org/_/rsrc/1639269260308/education/YojanaChoradia.png?height=198&width=200" style="height: 30vh; width: 100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Yojana Choradia</h1>
+                    <p style="font-size: 1.4rem;">Jr. Jain Shala</p>
+                    <p style="font-size: 1.2rem;">yojana25@gmail.com</p>
+                    <p style="font-size: 1.2rem;">510-662-2900</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image"><img src="https://lh6.googleusercontent.com/gsr8NeLWOa1JbHDQf_XOwrfgEuLoBoveFIJBpL-tq1YosLKXAInEv03WgFSdbMJZ40TjLBxbdW9NHV-uJ0iGuGakdebPfJwZiTdCPgAkE1C4Eqn4Ise8u_c1dsqKgN-3JALmG8ao=s0" style="height: 30vh; width:
+                100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Preeti Dand</h1>
+                    <p style="font-size: 1.4rem;">Gujurati Shala</p>
+                    <p style="font-size: 1.2rem;">pinkykekin@gmail.com</p>
+                    <p style="font-size: 1.2rem;">408-666-5141</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image"><img src="https://lh4.googleusercontent.com/yWNJIXHh2tuWhj-5XiCho6Q_3Rzmg5iz3H8Lyx8cS49khmjv6PmYzb-MhVAOAvklCaUKblXX2UpOckt7tGIAa4FSd5UG70z8vYc9uc3KdQLoN_zkifGl5aws_lZPJd-vHTPW7pzY=s0" style="height: 30vh; width:
+                100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Snehal Vaishnav</h1>
+                    <p style="font-size: 1.4rem;">Gujurati Shala</p>
+                    <p style="font-size: 1.2rem;">snehalnayan@gmail.com</p>
+                    <p style="font-size: 1.2rem;">408-508-9184</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image"><img src="https://lh4.googleusercontent.com/tUH_W-SwZTecM9st3fLFY7HKKYgV-8EsrD6BhVJ4b_TfvhqO1GcyVg2GFDtUlSY4Rhiihkza5TWj8GGZMdn6AWAROHDrQeZWPBZokU4DjoTu_V-npof035qLeo5l43vDB_3NoX8S=s0" style="height: 30vh; width:
+                100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Neeraj Mehta</h1>
+                    <p style="font-size: 1.4rem;">Hindi Shala Coordinator</p>
+                    <p style="font-size: 1.2rem;">neeraj.mehta2000@gmail.com</p>
+                    <p style="font-size: 1.2rem;">510-456-5894</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image"><img src="https://lh4.googleusercontent.com/z37QiTawqoBt3gBIjX0Z-G4-NOAd8KiBSo_4GkaD2lIdzN6QCYvfD03SecllWb8ldZUOrwkkAUoaePzwtOB6ZZQO20zKkMjq1bMIDDVtXwEnvsJYS7n-SB1jiKXYUhcqKn3lrBOt=s0" style="height: 30vh; width:
+                100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Rakesh Surana</h1>
+                    <p style="font-size: 1.4rem;">Hindi Shala</p>
+                    <p style="font-size: 1.2rem;">surana.mca@gmail.com</p>
+                    <p style="font-size: 1.2rem;">415-215-4775</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="image"><img src="https://lh4.googleusercontent.com/_HAiXIF5V5-_Cf4Is9BYtPI4XjWh4cb7QTaLnexQmwUKDbeh6KzrJHQCc4FABOcN-ukTDYCFdmmZqqKxQyj7xHiRpFUJmQULMgesY75Ne08jb34JekV5NHL0wykaQxAGLT4IQd8W=s0" style="height: 30vh; width:
+                100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Rakesh SurJainana</h1>
+                    <p style="font-size: 1.4rem;">SAT Coordinator</p>
+                    <p style="font-size: 1.2rem;">rujain@gmail.com</p>
+                    <p style="font-size: 1.2rem;">408-480-4096</p>
+                </div>
+            </div>
+            <div class="row" style="border-bottom: none;">
+                <div class="image"><img src="https://lh3.googleusercontent.com/gErjBb0QFTljXTmXFASPsBLmL_Y_CGZYl_tm1ReUdPXxcVh4iunz6JU1kYFIGRLPkviqqhlWkSWxBiOkyLZtVS151GeroFza7cFstBbD3vCoRZg3RWRAGQ7CGvbya4-u7Qwn56MM=s0" style="height: 30vh; width:
+                100%; object-fit: cover;"></div>
+                <div class="info">
+                    <h1 style="font-size: 1.8rem;">Sheetal Kasliwal</h1>
+                    <p style="font-size: 1.4rem;">Music Shala</p>
+                    <p style="font-size: 1.2rem;">sheetal_kasliwal@hotmail.com</p>
+                    <p style="font-size: 1.2rem;">925-997-3432</p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="new-updates">
+    </div>
+
+
+</body>
+<script>
+</script>
+
+</html>
+
+</html>
